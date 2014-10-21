@@ -1,0 +1,4 @@
+canyouhack.it/robots.txt
+
+User-agent: *
+Disallow: /Content/Challenges/Web/Web3p.php

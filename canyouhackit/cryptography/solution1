@@ -1,0 +1,15 @@
+hint: caesar salad
+
+pnrfne fnynq
+caesar salad
+
+这题的偏移为 13
+
+caesar 及其变种:
+
+caesar 加密: 偏移为左移3
+Avocat 加密：偏移为 10
+ROT 加密：偏移为 13
+Cassette 加密：偏移为 -6
+Cassis ：偏移为 -5
+

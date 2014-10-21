@@ -1,0 +1,3 @@
+curl -vv http://canyouhack.it/Content/Challenges/Web/Web10.php
+
+访问后被 Location 重定向至根目录

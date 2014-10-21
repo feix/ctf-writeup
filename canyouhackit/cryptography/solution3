@@ -1,0 +1,2 @@
+easy base64 解密
+echo -n "aGFja2l0cy5kZQ==" | base64 -d

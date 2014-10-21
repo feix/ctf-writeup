@@ -1,0 +1,2 @@
+绕过后台文件名检查，http://canyouhack.it/Content/Challenges/Web/Web9.php?File=Files9/passconfigs.php%00
+添加 %00 不影响文件访问，处理是被截断

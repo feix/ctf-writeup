@@ -1,0 +1,1 @@
+注意直接在 GET 请求头的参数 SESSION=abf3e2d32ec32 手动注入 ' or '1'='1' -- '， Admin 密码即为 flag

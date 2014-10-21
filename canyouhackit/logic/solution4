@@ -1,0 +1,3 @@
+2 3 5 11 19 41 73 139 ???
+Fibonacci Prime
+	prime(fibonacci(i)), i = 1, 2, 3, 4, 5 ...

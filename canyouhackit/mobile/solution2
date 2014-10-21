@@ -1,0 +1,7 @@
+dex2jar jd-gui
+首先访问： http://canyouhack.it/Content/Challenges/Mobile/2/index.php
+返回 68a571bcf7bc9f76d43bf931f413ab2c
+
+curl "http://canyouhack.it/Content/Challenges/Mobile/2/submit.php?Token=68a571bcf7bc9f76d43bf931f413ab2c&Attempts=1"
+
+for i in {1..20}; do curl "http://canyouhack.it/Content/Challenges/Mobile/2/submit.php?Token=68a571bcf7bc9f76d43bf931f413ab2c&Attempts=$i"; done

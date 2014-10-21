@@ -1,0 +1,7 @@
+var a = "de9f8caa7ea6fe56830925a124d605d4";
+     
+var password = "";
+for(var i = 0; i < 20; i++)
+	password += a.substring((i%3),(i%5)+(i%3));
+
+password 跑一遍就出来了
