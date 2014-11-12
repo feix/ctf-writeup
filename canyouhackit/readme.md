@@ -72,8 +72,8 @@
 	- [ ] 5. Quick Peak
 	- [ ] 6. Coding Upside-Down in Reverse
 * Captcha
-	- [ ] 1. As easy as it gets
-	- [ ] 2. Tilt your head
+	- [x] 1. As easy as it gets
+	- [x] 2. Tilt your head
 	- [ ] 3. Shuffle
 * Web Based
 	- [x] 1. Can you GET this one?

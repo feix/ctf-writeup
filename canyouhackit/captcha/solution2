@@ -1,0 +1,1 @@
+code=$(curl -s -b cookies.txt http://canyouhack.it/Content/Challenges/Captcha/Captcha2.php | convert -rotate 90 - - |  tesseract - stdout | tr -d "\n"); echo $code; curl -s -b cookies.txt http://canyouhack.it/Content/Challenges/Captcha/Captcha2.php?text=$code > pass.png
